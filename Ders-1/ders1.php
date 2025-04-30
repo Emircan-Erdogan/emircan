@@ -41,27 +41,7 @@
     echo $bharf2 = mb_strtoupper($metin);
     echo $kharf2 = mb_strtolower($metin);
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     ?>
-
-
-
-
 </body>
 
 </html>

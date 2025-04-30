@@ -7,7 +7,7 @@
 </head>
 <body>
     <!-- 
-    ceil    : Herhangi bir ondalıklı sayıyı yukarı yuvarlaamk için kullanılır.
+    ceil    : Herhangi bir ondalıklı sayıyı yukarı yuvarlamak için kullanılır.
     floor   : Herhangi bir ondalıklı sayıyı aşağı yuvarlamak için kullanılır.
     round   : Herhangi bir ondalıklı sayıyı en yakına yuvarlamak için kullanılır.
     -->
@@ -30,7 +30,7 @@
     <?php
     $sayi1 = 14.28563;
     echo "Sonuç = " . ceil($sayi1);
-    echo "<br>\$sayi1 değikeninni değeri $sayi1 yukarı yuvarlama işlemi sonucu: " . ceil($sayi1);
+    echo "<br>\$sayi1 değerinin değeri $sayi1 yukarı yuvarlama işlemi sonucu: " . ceil($sayi1);
     ?>
 
 
@@ -39,7 +39,7 @@
     <?php
     $sayi1 = 24.98563;
     echo "Sonuç = " . floor($sayi1);
-    echo "<br>\$sayi1 değikeninni değeri $sayi1 aşağı yuvarlama işlemi sonucu: " . floor($sayi1);
+    echo "<br>\$sayi1 değerinin değeri $sayi1 aşağı yuvarlama işlemi sonucu: " . floor($sayi1);
     ?>
 
 
@@ -48,22 +48,22 @@
     <?php
     $sayi1 = 57.323;
     echo "Sonuç = " . round($sayi1);
-    echo "<br>\$sayi1 değikeninni değeri $sayi1 Round işlemi sonucu: " . round($sayi1);
+    echo "<br>\$sayi1 değerinin değeri $sayi1 Round işlemi sonucu: " . round($sayi1);
 
     echo "<hr><br> İlk iki hanenin sabit tutularak 3. haneye göre round işleminin uygulanması:";
     $sayi1 = 57.329;
-    echo "<br>\$sayi1 değikeninni değeri $sayi1 Round işlemi sonucu: " . round($sayi1,2);
+    echo "<br>\$sayi1 değerinin değeri $sayi1 Round işlemi sonucu: " . round($sayi1,2);
     
     echo "<hr><br> İlk iki hanenin sabit tutularak 3. haneye göre round işleminin uygulanması:";
     $sayi1 = 57.328;
-    echo "<br>\$sayi1 değikeninni değeri $sayi1 Round işlemi sonucu: " . round($sayi1,2);
+    echo "<br>\$sayi1 değerinin değeri $sayi1 Round işlemi sonucu: " . round($sayi1,2);
     
     echo "<hr><br> Virgülden öncesi için örnek yuvarlama uygulamaları:";
     $sayi1 = 257.323955;
-    echo "<br>\$sayi1 değikeninni değeri $sayi1 Round işlemi sonucu: " . round($sayi1,-1);
+    echo "<br>\$sayi1 değerinin değeri $sayi1 Round işlemi sonucu: " . round($sayi1,-1);
 
     $sayi1 = 557.329855;
-    echo "<br>\$sayi1 değikeninni değeri $sayi1 Round işlemi sonucu: " . round($sayi1,-2);
+    echo "<br>\$sayi1 değerinin değeri $sayi1 Round işlemi sonucu: " . round($sayi1,-2);
     
     ?>
 

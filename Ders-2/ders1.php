@@ -82,7 +82,7 @@ echo "<br>İşlemin Sonucu: $sayi1 / $sayi2 = $sonuc";    //Sonuç ekrana yazdı
 echo "<br><br> Atamalı Bölme İşlemi:";
 $deger = 120;
 $ekdeger = 72;
-echo "<br>Sonuç: $deger / $ekdeger = " . $deger *= $ekdeger;
+echo "<br>Sonuç: $deger / $ekdeger = " . $deger /= $ekdeger;
 echo "<br>Değer Değişkeninin İçeriği: $deger";
 echo "<br>Değer Değişkeninin Yeni İçeriği:" . $deger /= 123;
 echo "<br>Değer Değişkeninin Son İçeriği:  $deger";
